@@ -163,8 +163,8 @@ function createTeamMember(name, role, imgSrc, info, socialLinks) {
 
 const teamContainer = document.getElementById('teamContainer');
 teamContainer.appendChild(createTeamMember(
-    "Lucreator245", 
-    "Owner", 
+    "lucreator245", 
+    "Organizer", 
     "https://cdn.discordapp.com/avatars/503499156174798849/a_d3550c4484b0ee2ecdc60fdfb2e416d4?size=1024",
     "Creator and visionary behind the project.",
     [
@@ -193,14 +193,19 @@ teamContainer.appendChild(createTeamMember(
 
 teamContainer.appendChild(createTeamMember(
     "Jxson", 
-    "Developer", 
+    "Plugin Developer", 
     "https://cdn.discordapp.com/avatars/287874774204547073/880dd669f46f303d2bf2d90d9197cecf?size=1024",
-    "Full stack developer with a passion for clean code.",
+    "Developer with a passion for clean code.",
     [
         { 
             platform: 'Steam', 
             url: 'https://steamcommunity.com/id/jxsonrl/', 
             icon: 'steam' 
+        }, 
+        { 
+            platform: 'Github', 
+            url: 'https://github.com/dev-json', 
+            icon: 'github' 
         }
     ]
 ));
@@ -218,13 +223,7 @@ teamContainer.appendChild(createTeamMember(
     "Builder", 
     "https://cdn.discordapp.com/avatars/1251974341294424156/8fd135006b6de0637e1f4e5a0727333a?size=1024",
     "Designer with a knack for details.",
-    [
-        { 
-            platform: 'Spotify', 
-            url: 'https://open.spotify.com/user/31lhjrv4otua4iktrifpvgeukzcy', 
-            icon: 'spotify' 
-        }
-    ]
+    []
 ));
 
 teamContainer.appendChild(createTeamMember(
@@ -234,6 +233,30 @@ teamContainer.appendChild(createTeamMember(
     "Creative mind behind many designs.",
     []
 ));
+
+teamContainer.appendChild(createTeamMember(
+    "PeteThePirate", 
+    "Builder", 
+    "https://cdn.discordapp.com/avatars/827565942950461460/1824dda4c76d3a363289e1f230c25846?size=1024", 
+    "no info there yet", 
+    []
+));
+
+teamContainer.appendChild(createTeamMember(
+    "cactoid", 
+    "Builder", 
+    "https://cdn.discordapp.com/avatars/772283951087747072/ed32dce64c04a557c7ec00614bb01e95?size=1024",
+    "no info there yet", 
+    []
+));
+
+teamContainer.appendChild(createTeamMember(
+    "Black_Killer", 
+    "Website Developer", 
+    "https://cdn.discordapp.com/avatars/736282475818516560/7beb1b9aab684e62984215d0985f2404?size=1024", 
+    "Created the website you're on right now", 
+    []
+))
 
 const infoCardsContainer = document.getElementById('infoCardsContainer');
 infoCardsContainer.appendChild(createInfoCard("Title 1", "This is the first info card text.", "https://cdn.discordapp.com/attachments/1204857073658241065/1272993887803277433/2024-08-13_21.02.47.png?ex=66be50f1&is=66bcff71&hm=f6f724cfaa3f68d104f9600695223ac8d4afebcfee1e373ed930eb0f70dfe66f&"));
